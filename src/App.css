@@ -20,7 +20,7 @@ body {
 .header {
   background-color: #8400ff;
   color: #fff;
-  padding: 15px 0;
+  padding: 10px 0;
   text-align: center;
   position: relative;
 }
@@ -55,7 +55,15 @@ body {
 
 /* Form styles */
 .form {
-  margin-bottom: 20px;
+  max-width: 500px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column
 }
 
 .form input[type="text"],
@@ -103,7 +111,7 @@ body {
   color: black;
 }
 
-/* Search bar styles */
+
 /* Search bar styles */
 .search-bar {
   width: 100%;
@@ -130,3 +138,4 @@ body {
   text-align: center;
   padding: 20px 0;
 }
+

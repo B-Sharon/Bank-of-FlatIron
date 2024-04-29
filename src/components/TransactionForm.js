@@ -1,6 +1,6 @@
 function TransactionForm({ newTransaction, handleInputChange, addTransaction }) {
     return (
-        <form onSubmit={addTransaction}>
+        <form onSubmit={addTransaction} >
             <input
                 type="date"
                 name="date"
@@ -33,7 +33,10 @@ function TransactionForm({ newTransaction, handleInputChange, addTransaction }) 
                 placeholder="Amount"
                 required
             />
+            <div>
             <button type="submit">Add Transaction</button>
+            </div>
+            
         </form>
     );
 }
